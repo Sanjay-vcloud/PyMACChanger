@@ -64,6 +64,9 @@ python3 main.py -i eth0 -p
 python3 main.py -cli
 ```
 
+## Note
+ You must run this script as root or use sudo to run this script for it to work properly. This is because changing a MAC address requires root privileges.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
